@@ -16,6 +16,9 @@
   <remote name="BlissRoms-Devices"
           fetch="https://github.com/BlissRoms-Devices" />
 
+  <remote name="sultan"
+          fetch="https://github.com/sultanxda" />
+
   <remote name="cm"
           fetch="https://github.com/CyanogenMod" 
           review="review.cyanogenmod.org" />
@@ -233,7 +236,7 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-13.0-caf" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" remote="sultan" groups="pdk" revision="cm-13.0-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" groups="omap4" />
